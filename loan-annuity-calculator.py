@@ -1,5 +1,22 @@
 import math
+"""
+The code is a loan calculator. It includes functions to calculate the loan's principal amount, annuity monthly payment, and number of monthly payments. 
+The user is prompted to enter the calculation type (principal, annuity, or number of monthly payments) 
+and then input the relevant details such as the loan principal, number of periods, and loan interest.
 
+If the user selects "a" for annuity, they are prompted to enter the loan principal, the number of periods, and the loan interest. 
+The annuity_a function is then called with these inputs, and it calculates and prints the monthly payment amount.
+
+If the user selects "n" for the number of monthly payments, they are prompted to enter the loan principal, monthly payment, and loan interest. 
+The num_of_payments_n function is then called with these inputs, and it calculates the number of monthly payments needed to pay off the loan. 
+The output is formatted to display the number of months or years and months it will take to repay the loan.
+
+If the user selects "p" for principal, they are prompted to enter the monthly payment amount, number of periods, and loan interest. 
+The principal_p function is then called with these inputs, and it calculates and prints the loan principal amount.
+
+The code also includes a nominal_interest function, which converts an annual interest rate to a nominal (monthly) interest rate. 
+Additionally, the code includes several while loops to ensure that the user enters valid input values.
+"""
 # A = annuity
 # P = loan principal
 # i = nominal (monthly) interest rate. usually, it is 1/12 of the
