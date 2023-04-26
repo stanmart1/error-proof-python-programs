@@ -1,5 +1,10 @@
 import math
-
+"""
+The code is a Python script that calculates monthly payments and the number of monthly payments for a loan based 
+on user input of the principal, monthly payment, or number of months. 
+It defines two functions, monthly_payment and no_of_months, that perform the calculations based on the 
+formulas for monthly payment, number of monthly payments, and last payment.
+"""
 # Payment formulas:
 # monthly payment = principal/months
 # no of monthly payments = principal/payments
